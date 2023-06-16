@@ -16,6 +16,9 @@ The dataset used in this project is from the Kaggle competition "Fake News." It 
   ![NLTK](https://img.shields.io/badge/NLTK-Natural%20Language%20Toolkit-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
   ![regex](https://img.shields.io/badge/RE-RegEx-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
   ![SKLEARN](https://img.shields.io/badge/sklearn-007396?style=for-the-badge&logo=scikit-learn&logoColor=white)
+  ![pickle](https://img.shields.io/badge/pickle-007396?style=for-the-badge&logo=pickle&logoColor=white)
+  ![fastapi](https://img.shields.io/badge/Fast%20API-007396?style=for-the-badge&logo=fastapi&logoColor=white)
+
 
 ## Data Pre-processing
 Data pre-processing steps are performed to clean and transform the dataset. Null values are replaced with empty strings, and the title, author, and text columns are merged into a single column called 'content'. The text is then processed using stemming and removing stopwords.
@@ -25,6 +28,9 @@ A Logistic Regression model is trained using the training set.
 
 ## Predictive system
 The user is able to enter news information and predict whether this news is real or fake
+
+## Exporting the model
+We used the `pickle` libraries to export and import the model. We created a class that contains the model, the stemmer, and the vectorizer. This class will be exported using `pickle`
 
 ## Contributing
 Contributions are always welcome! If you find any issues with the code or have suggestions for improvements, please feel free to submit a pull request.
