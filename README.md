@@ -3,11 +3,13 @@
 
 ## About the Dataset
 The dataset used in this project is from the Kaggle competition "Fake News." It contains news articles with the following attributes:
-id: Unique id for a news article
-title: The title of a news article
-author: Author of the news article
-text: The text of the article; could be incomplete
-label: A label that marks whether the news article is real or fake (0 = Fake news, 1 = Real news)
+1. id: Unique id for a news article
+2. title: The title of a news article
+3. author: Author of the news article
+4. text: The text of the article; could be incomplete
+5. label: A label that marks whether the news article is real or fake (0 = Fake news, 1 = Real news)
+
+[Link to dataset](https://www.kaggle.com/c/fake-news/data?select=train.csv)
 
 ## Libraries
   ![Numpy](https://img.shields.io/badge/Numpy-007396?style=for-the-badge&logo=numpy&logoColor=white)
