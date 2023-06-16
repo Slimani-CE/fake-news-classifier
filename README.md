@@ -1,4 +1,4 @@
-# Fake News Classifier & RSET API Service
+# Fake News Classifier & REST API Service
 
 ## About the Dataset
 The dataset used in this project is from the Kaggle competition "Fake News." It contains news articles with the following attributes:
