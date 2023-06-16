@@ -23,6 +23,9 @@ Data pre-processing steps are performed to clean and transform the dataset. Null
 ## The Model 
 A Logistic Regression model is trained using the training set.
 
+## Predictive system
+The user is able to enter news information and predict whether this news is real or fake
+
 ## Contributing
 Contributions are always welcome! If you find any issues with the code or have suggestions for improvements, please feel free to submit a pull request.
 
