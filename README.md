@@ -32,6 +32,15 @@ The user is able to enter news information and predict whether this news is real
 ## Exporting the model
 We used the `pickle` libraries to export and import the model. We created a class that contains the model, the stemmer, and the vectorizer. This class will be exported using `pickle`
 
+## FastAPI Service
+We used `pickle` to import the model. And `FastAPI` to build a simple REST API service. The service contains a `POST` method with the endpoint `/is-fake-news` and that takes a `RequestInput` Object. You can test this service by requesting the endpoint `http://localhost:1337/is-fake-news` with a `POST` method. 
+```python
+class InputRequest(BaseModel):
+	author: str
+	title: str
+	text: str
+```
+
 ## Contributing
 Contributions are always welcome! If you find any issues with the code or have suggestions for improvements, please feel free to submit a pull request.
 
